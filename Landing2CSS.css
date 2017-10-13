@@ -1,0 +1,133 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(Untitled-1.jpg);
+	background-attachment:fixed;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.navbar-default{
+	background-color: -webkit-linear-gradient(#3B3B3B, black); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(#3B3B3B, black); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(#3B3B3B, black); /* For Firefox 3.6 to 15 */
+	background-color:linear-gradient(#3B3B3B, black);
+	border-bottom:4px solid #C70003;
+	height:12vh;
+}
+
+.navbar-nav{
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav .nav-item{
+	padding-top:1.25vh;
+	height:11.25vh;
+}
+
+.navbar-nav .nav-item:hover, .navbar-nav .nav-item:active{
+	background-color:#D3D3D3;
+}
+
+.navbar-nav .nav-item .nav-link{
+	margin-left:2vw;
+	margin-right:2vw;
+	padding-top:1.75vh;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:3vh;
+	color:white;
+}
+
+.navbar-nav .nav-item .nav-link:active, .navbar-nav .nav-item .nav-link:hover{
+	color:#880002;
+}
+
+.navbar #hidden{
+	display:none;
+}
+
+#logo{
+	margin-left:2vw;
+	margin-right:2vw;
+	padding-top:0vh;
+	margin-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+	height:10vh;
+	width:auto;
+}
+
+/*News*/
+#part1{
+	padding-top:12vh;
+}
+
+.article{
+	background-image:url(../1.jpg);
+	background-size:cover;
+	height:40vh;
+	transition: all 0.3s ease-in-out;
+}
+
+.article:hover, .article:active{
+	left:0;
+	transform: scale(1.1,1.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.row, #carouselExampleIndicators{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.carousel-inner, #video{
+	height:36vh;
+}
+
+#galleryall{
+	padding-right:0;
+	margin-right:0;
+}
+
+#article4, #article1{
+	border-right:5px solid red;
+}
+
+.article:hover .topic-sm, .article:active .topic-sm, .article:hover .topic-big, .article:active .topic-big{
+	color:#F07700;
+}
+
+.article:hover .topic-big, .article:active .topic-big{
+	padding-left: 3vw;
+	transition: all 0.3s ease-in-out;
+}
+
+.topic{
+	color:#FFFFFF;
+}
+
+.topic-sm{
+	font-size:4vh;
+}
+
+.topic-big .head{
+	font-size:7vh;
+}
+
+.topic-big, .topic-sm{
+    position: absolute;
+    bottom: 0;
+	padding-left:2vw;
+	padding-bottom:5vh;
+}

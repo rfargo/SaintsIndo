@@ -1,0 +1,28 @@
+Saints Indo
+
+ref:
+PSG esports
+Fnatic
+
+Start with Logo/News
+Using Parallax (Only 1 background: SIndo Logo)(?)
+Divided page (?)
+Bold, Creative Typo (?)
+Modular/Grids Layout(?) (News Area)
+Gradients (?)
+Simple Homepages (?)
+Wierd Navigation (?)
+Nav with logo in the Middle (?)
+
+Home (Nav)
+About Us & Profile (Nav) (Who we are?)
+Gallery & Video (Nav) (Gallery) 
+Match Schedule
+Contact Us
+News (Nav) (Stories of Saints Indo) 
+Awards  (Nav) (our Achievement)
+Partners (Nav) (our Partners)
+
+Primary: Black
+Secondary: White, Red
+Tersier: Orange
