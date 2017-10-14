@@ -3,6 +3,7 @@ Saints Indo
 ref:
 PSG esports
 Fnatic
+Reading
 
 Start with Logo/News
 Using Parallax (Only 1 background: SIndo Logo)(?)
@@ -13,6 +14,16 @@ Gradients (?)
 Simple Homepages (?)
 Wierd Navigation (?)
 Nav with logo in the Middle (?)
+
+Landing page:
+(Double Nav) (middlesborought)
+News (Stoke City Style)
+Gallery (Usual)
+Video (Usual)
+Matches (Fnatic)
+Follow Us (reading)
+Sponsor Logo
+
 
 Home (Nav)
 About Us & Profile (Nav) (Who we are?)
