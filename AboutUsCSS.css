@@ -37,11 +37,87 @@ body{
 
 #part2{
 	margin-top:12vh;
-	height:88vh;
 }
 
 #part2 div h1{
 	text-align:center;
 	color:white;
 	font-size:7vh;	
+}
+
+.playerArea{
+	margin-top:10vh;
+}
+
+.playerArea, .player{
+	padding-left:1.6vw;
+	padding-right:1.6vw;
+}
+
+.playerPicture{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,0.2)); /*Fx 3.6-15*/
+	background: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,0.2)); /*Standard*/
+	height:30vh;
+	border-bottom:5px solid red;
+}
+
+.playerName, .playerStat, .playerHero{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(175,128,128,0.15),rgba(255,0,0,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(175,128,128,0.15),rgba(255,0,0,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(175,128,128,0.15),rgba(255,0,0,0)); /*Fx 3.6-15*/
+  background: linear-gradient(to right,rgba(255,0,0,0), rgba(175,128,128,0.15), rgba(255,0,0,0)); /*Standard*/
+	border-bottom:1px ridge grey;
+}
+
+.playerName{
+	top:10%;
+	height:10vh;
+}
+
+.playerName h1, .playerName h5{
+	color:white;
+	display:inline-block;
+	margin-top:0.5vw;
+	margin-bottom:auto;
+}
+
+.playerName h1{
+	padding-right:0.5vw;
+}
+
+.playerName h5{
+	color:red;
+}
+
+
+.playerStat{
+	height:20vh;
+}
+
+.playerStat div, .playerHero div{
+	display:inline-block;
+	padding-right:1vw;
+	margin-top:0.75vw;
+}
+
+.playerHero{
+	height:20vh;
+}
+
+.playerStat h4, .playerHero h4{
+	color:white;
+}
+
+.playerStat h6, .playerHero h6{
+	color:#D3D3D3;
+}
+
+
+.topHero{
+	background-color:#FFF;
+	width:11vw;
 }

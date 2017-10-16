@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(Untitled-1.jpg);
+	background-attachment:fixed;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+
+#part1{
+	position:fixed;
+	margin-top:12vh;
+	height:88vh;
+}
+
+#part1 div{
+	  position: relative;
+}
+
+#part1 div div{
+  position: absolute;
+  top: 22%;
+}
+
+#part1 div div h1{
+	padding-left:5vw;
+	color:white;
+	font-size:15vh;
+}
